@@ -1,0 +1,4702 @@
+[
+  {
+    "X": {
+      "timestamp_us": 1000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 11000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 21000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 31000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 41000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 51000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 61000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 71000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 81000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 91000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 101000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 111000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 121000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 131000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 141000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 151000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 161000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 171000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 181000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 191000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 201000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 211000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 221000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 231000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 241000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 251000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 261000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 271000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 281000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 291000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 301000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 311000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 321000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 331000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 341000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 351000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 361000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 371000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 381000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 391000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 401000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 411000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 421000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 431000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0,
+      "shear_force_N": 0.0,
+      "slip_speed_mms": 0.0,
+      "material_features": {
+        "hardness_01": 0.5,
+        "mu_01": 0.5,
+        "roughness_rms_um": 1.0
+      },
+      "uncertainty_pct": 0.0
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0,
+        "rise_ms": 0.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.0
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0,
+        "rate_ms": 100.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 441000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.98,
+      "normal_force_N": 32.5870023991106,
+      "shear_force_N": 1.5134560271690133e-14,
+      "slip_speed_mms": 7.205527458547436e-12,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 100
+    },
+    "Y": {
+      "impact": {
+        "A": 0.9677477236892577,
+        "rise_ms": 8.8125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9913671043931203
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0303855820145158,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 1.0,
+        "rate_ms": 10.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 451000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 13.392587051554793,
+      "shear_force_N": 1.0161194314719771e-14,
+      "slip_speed_mms": 1.6857210334836743e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 94.59321920372665
+    },
+    "Y": {
+      "impact": {
+        "A": 0.8062599827788799,
+        "rise_ms": 2.875,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9960032457818765
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.030129459989897613,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.6696293525777397,
+        "rate_ms": 10.0
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 461000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 4.975717267589943,
+      "shear_force_N": 1.1430338179995648e-14,
+      "slip_speed_mms": 2.0693910617355216e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 45.979999068177186
+    },
+    "Y": {
+      "impact": {
+        "A": 0.4832653710082306,
+        "rise_ms": 6.458333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9998023631474191
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.009427208897614149,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.24878586337949712,
+        "rate_ms": 16.73439279705595
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 471000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 1.5209515488900638,
+      "shear_force_N": 2.3058834237812287e-14,
+      "slip_speed_mms": 2.203625770138678e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 22.446333538923813
+    },
+    "Y": {
+      "impact": {
+        "A": 0.14254236728871164,
+        "rise_ms": 8.979166666666666,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9992893649829975
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.023875377795201998,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.07604757744450319,
+        "rate_ms": 39.66756126036157
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 481000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.28223545056552274,
+      "shear_force_N": 2.686213506613898e-14,
+      "slip_speed_mms": 2.2396974357763964e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 11.476572975946828
+    },
+    "Y": {
+      "impact": {
+        "A": 0.02644124156802852,
+        "rise_ms": 6.145833333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9899432968093691
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.08906598698196648,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.014111772528276136,
+        "rate_ms": 77.98879679694986
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 491000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 1.0,
+      "normal_force_N": 0.0035198943046705978,
+      "shear_force_N": 4.729425144238868e-15,
+      "slip_speed_mms": 2.244263486170857e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.5538550382061727
+    },
+    "Y": {
+      "impact": {
+        "A": 0.004364242963271607,
+        "rise_ms": 1.8958333333333333,
+        "fall_ms": 2.0,
+        "hf_weight": 0.022386337242183342
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.9059038737030979,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.00017599471523352988,
+        "rate_ms": 99.64924518939313
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 0.17966981254136657
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 501000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 0.03394783015277174,
+      "shear_force_N": 4.877615238475518e-16,
+      "slip_speed_mms": 2.1746989066485362e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 3.8600712488779783
+    },
+    "Y": {
+      "impact": {
+        "A": 0.003961218391310659,
+        "rise_ms": 6.125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.7167541012923184
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.5058404780118263,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.001697391507638587,
+        "rate_ms": 96.7166786212264
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 511000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 0.21128408302644158,
+      "shear_force_N": 3.532015589466228e-16,
+      "slip_speed_mms": 1.9210805261203982e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.5118516820153471
+    },
+    "Y": {
+      "impact": {
+        "A": 0.017417605779232802,
+        "rise_ms": 4.6875,
+        "fall_ms": 20.0,
+        "hf_weight": 0.993822633749023
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.07337515684856005,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.010564204151322079,
+        "rate_ms": 82.55701647638762
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 521000,
+      "phase": "PHASE_NO_CONTACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 0.39928906906490214,
+      "shear_force_N": 1.6428447283687956e-16,
+      "slip_speed_mms": 1.771343141758529e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.6329111210392073
+    },
+    "Y": {
+      "impact": {
+        "A": 0.037521366749735816,
+        "rise_ms": 2.2083333333333335,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9990984442782249
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0278250670785314,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.019964453453245108,
+        "rate_ms": 71.46486184361223
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 531000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.98,
+      "normal_force_N": 0.5567608463652055,
+      "shear_force_N": 9.974241920187472e-17,
+      "slip_speed_mms": 1.6950708317121817e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.2872573870734003
+    },
+    "Y": {
+      "impact": {
+        "A": 0.04801471029942672,
+        "rise_ms": 7.541666666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999537871503139
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.019857865527227507,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.027838042318260276,
+        "rate_ms": 64.2359423629419
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 541000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 0.6783857638729723,
+      "shear_force_N": 4.1480525321852885e-17,
+      "slip_speed_mms": 1.6512374694346576e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.1330855249177093
+    },
+    "Y": {
+      "impact": {
+        "A": 0.06587694768562424,
+        "rise_ms": 6.291666666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9997798973857133
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.013529432569038062,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.03391928819364862,
+        "rate_ms": 59.581058271874404
+      },
+      "texture": {
+        "color": "COLOR_PINK",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 551000,
+      "phase": "PHASE_IMPACT",
+      "phase_confidence_01": 0.7,
+      "normal_force_N": 0.7682391750107446,
+      "shear_force_N": 2.9844614941781476e-17,
+      "slip_speed_mms": 1.6329110107079206e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.062062885155761784
+    },
+    "Y": {
+      "impact": {
+        "A": 0.07703405994413749,
+        "rise_ms": 9.666666666666668,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999927784506464
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.00699814102198439,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.038411958750537226,
+        "rate_ms": 56.55343542504218
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 561000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.8328143251055599,
+      "shear_force_N": 1.2021969114368804e-17,
+      "slip_speed_mms": 1.6247784149340573e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.028765433018021896
+    },
+    "Y": {
+      "impact": {
+        "A": 0.07924476713576407,
+        "rise_ms": 4.833333333333334,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9998750614922403
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.006181347900980548,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.041640716255277994,
+        "rate_ms": 54.56090048523631
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 571000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.876627165631857,
+      "shear_force_N": 1.7906776288980587e-17,
+      "slip_speed_mms": 1.6185531128119087e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.011579663035023387
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0762257286246576,
+        "rise_ms": 7.895833333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999137898430986
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.00632664031414322,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.043831358281592854,
+        "rate_ms": 53.28708964219335
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 581000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9068302768049223,
+      "shear_force_N": 8.231430606434716e-18,
+      "slip_speed_mms": 1.6121238673614557e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.0061951457120302325
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08147477046552824,
+        "rise_ms": 2.895833333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999943699305297
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.00527376503357396,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.045341513840246116,
+        "rate_ms": 52.443052334767636
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 591000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9302153985409742,
+      "shear_force_N": 9.151169474551954e-18,
+      "slip_speed_mms": 1.6082989770448428e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.003759840970769295
+    },
+    "Y": {
+      "impact": {
+        "A": 0.07826629394946107,
+        "rise_ms": 6.8125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999945785200564
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0024569323734858987,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04651076992704871,
+        "rate_ms": 51.80768948148935
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 601000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.947644008887161,
+      "shear_force_N": 7.390592859360257e-18,
+      "slip_speed_mms": 1.6053155944950547e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.0017951865700538043
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09672067080138072,
+        "rise_ms": 2.6666666666666665,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999352338128497
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0035599175893170467,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04738220044435805,
+        "rate_ms": 51.344085235133754
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 611000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9594057107566218,
+      "shear_force_N": 8.691300040493333e-18,
+      "slip_speed_mms": 1.6032563809697858e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.0007608200488395993
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09053503295428127,
+        "rise_ms": 5.895833333333334,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999506744236887
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002829175378264694,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.047970285537831094,
+        "rate_ms": 51.03588269189291
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 621000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9670205579025332,
+      "shear_force_N": 5.360630966617864e-18,
+      "slip_speed_mms": 1.6019657976234597e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.000310054927986863
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08025347796093646,
+        "rise_ms": 7.270833333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999309435591778
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001931953519433803,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04835102789512666,
+        "rate_ms": 50.838309542952445
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 631000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9718897851806403,
+      "shear_force_N": 6.010984557184402e-18,
+      "slip_speed_mms": 1.6007688903934347e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 0.00012591146678323894
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0887732844221092,
+        "rise_ms": 9.979166666666668,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999980159336844
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0023660937746234336,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.048594489259032016,
+        "rate_ms": 50.71277347827999
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 641000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9750075147075089,
+      "shear_force_N": 8.960685318044033e-18,
+      "slip_speed_mms": 1.599878904170271e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 5.1823538753757645e-05
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09187417768863985,
+        "rise_ms": 1.3958333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999806967831945
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0020884602552165474,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04875037573537545,
+        "rate_ms": 50.6327187392042
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 651000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9770196151581778,
+      "shear_force_N": 4.900761532559245e-18,
+      "slip_speed_mms": 1.5997481330322686e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.1779888459503737e-05
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09218529107088813,
+        "rise_ms": 9.395833333333334,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999654422982521
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0016841783256210843,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04885098075790889,
+        "rate_ms": 50.58118757815115
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 661000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9783320033532101,
+      "shear_force_N": 7.121207581809559e-18,
+      "slip_speed_mms": 1.5994376546300993e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 9.366293586060666e-06
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09038187260439526,
+        "rise_ms": 6.229166666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999798488026254
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0027333188597190284,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04891660016766051,
+        "rate_ms": 50.547632970857855
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 671000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9791975418747914,
+      "shear_force_N": 6.47085399124302e-18,
+      "slip_speed_mms": 1.5995271233172182e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.117917014764917e-06
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09046650625316029,
+        "rise_ms": 6.875,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999605614374881
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0018901711452115914,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04895987709373957,
+        "rate_ms": 50.52552758593019
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 681000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.979774314128516,
+      "shear_force_N": 9.420554752102652e-18,
+      "slip_speed_mms": 1.5993718296614494e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.8464209859408717e-06
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08726681349399645,
+        "rise_ms": 1.6666666666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999710324502703
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0012649396722430358,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0489887157064258,
+        "rate_ms": 50.51080786651147
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 691000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9801621477059614,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.599091685795286e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 8.418021527837076e-07
+    },
+    "Y": {
+      "impact": {
+        "A": 0.07878003191223146,
+        "rise_ms": 6.5,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999759608103469
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0005901689132859516,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04900810738529807,
+        "rate_ms": 50.500914844701505
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 701000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9804249068608828,
+      "shear_force_N": 7.850462293418877e-18,
+      "slip_speed_mms": 1.5990991467082905e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 3.890291707320685e-07
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09930427471310493,
+        "rise_ms": 9.0625,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999849617830371
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0013005306388138075,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04902124534304414,
+        "rate_ms": 50.494214475673935
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 711000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9806040126273938,
+      "shear_force_N": 1.5700924586837753e-18,
+      "slip_speed_mms": 1.5985538324204104e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.8173192031632422e-07
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09564033061267685,
+        "rise_ms": 6.8125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999714484457778
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0012247171746417485,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04903020063136969,
+        "rate_ms": 50.48964829034341
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 721000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9807266827437312,
+      "shear_force_N": 3.3306690738754703e-18,
+      "slip_speed_mms": 1.597850999909142e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 8.56084627563887e-08
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08447699307658514,
+        "rise_ms": 6.75,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999529642469391
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001973057872608857,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04903633413718656,
+        "rate_ms": 50.486521371781876
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 731000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.980811010989936,
+      "shear_force_N": 6.47085399124302e-18,
+      "slip_speed_mms": 1.596653539929502e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.0586863304978326e-08
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09647420642759097,
+        "rise_ms": 4.166666666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999582171715645
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002878745705226419,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.0490405505494968,
+        "rate_ms": 50.484372030032134
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 741000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9808691449423277,
+      "shear_force_N": 3.7905385079340884e-18,
+      "slip_speed_mms": 1.5961965373732252e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.9335654162790475e-08
+    },
+    "Y": {
+      "impact": {
+        "A": 0.10127791121808548,
+        "rise_ms": 6.0,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999756582692114
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.004069227632987686,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904345724711638,
+        "rate_ms": 50.48289042985294
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 751000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809093062166904,
+      "shear_force_N": 6.4708539912430216e-18,
+      "slip_speed_mms": 1.5956183695736617e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 9.245036420676547e-09
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09262684170809526,
+        "rise_ms": 4.479166666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999660871308161
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.004411333590380577,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904546531083452,
+        "rate_ms": 50.481866931600486
+      },
+      "texture": {
+        "color": "COLOR_PINK",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 761000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809370952085092,
+      "shear_force_N": 7.390592859360257e-18,
+      "slip_speed_mms": 1.595527237068517e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.432312239004428e-09
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08366794053666453,
+        "rise_ms": 8.541666666666666,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999963185817763
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.003538870471193974,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904685476042546,
+        "rate_ms": 50.48115876161843
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 771000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809563459801879,
+      "shear_force_N": 6.273072661181362e-18,
+      "slip_speed_mms": 1.594827635591502e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.1292086329804974e-09
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09164872872595006,
+        "rise_ms": 5.666666666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999954608250932
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002239656548558481,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049047817299009394,
+        "rate_ms": 50.4806681898482
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 781000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809696934743979,
+      "shear_force_N": 7.390592859360257e-18,
+      "slip_speed_mms": 1.5952695864673306e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.024337745796022e-09
+    },
+    "Y": {
+      "impact": {
+        "A": 0.10927532519220504,
+        "rise_ms": 3.458333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999987209252449
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0014545185110985384,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049048484673719896,
+        "rate_ms": 50.48032805823054
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 791000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809789538299765,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.5950716303561937e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.933270314701949e-10
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08600138084396856,
+        "rise_ms": 1.3333333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999810863231561
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001953436521230273,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049048947691498826,
+        "rate_ms": 50.48009208107054
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 801000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809853815624148,
+      "shear_force_N": 1.5700924586837753e-18,
+      "slip_speed_mms": 1.5946673189140986e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.3777574094208714e-10
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09345331200476667,
+        "rise_ms": 3.9166666666666665,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999210965791654
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001550766609569891,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904926907812074,
+        "rate_ms": 50.47992828757243
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 811000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809898446503142,
+      "shear_force_N": 1.0721261933235728e-17,
+      "slip_speed_mms": 1.5944133967071982e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.1466964300188453e-10
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09603261287174455,
+        "rise_ms": 9.229166666666666,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999651867618402
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.004033419686022729,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049492232515715,
+        "rate_ms": 50.47981455838915
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 821000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809929443558836,
+      "shear_force_N": 6.9234262517479004e-18,
+      "slip_speed_mms": 1.5938531930506632e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 5.5323518940039466e-11
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09653973095707656,
+        "rise_ms": 9.458333333333332,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999571214409514
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.004961208814155897,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904964721779418,
+        "rate_ms": 50.479735571453446
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 831000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809950975510582,
+      "shear_force_N": 6.010984557184401e-18,
+      "slip_speed_mms": 1.5934533936651633e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.6699428641488244e-11
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08367481092685637,
+        "rise_ms": 2.020833333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.99996599039464
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002630214678955792,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049754877552906,
+        "rate_ms": 50.4796807037139
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 841000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809965934520408,
+      "shear_force_N": 6.93072342530164e-18,
+      "slip_speed_mms": 1.592940975885854e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.2888098916249921e-11
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09242943231742252,
+        "rise_ms": 6.0625,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999867895443998
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0023206537930596893,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904982967260204,
+        "rate_ms": 50.47964258522132
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 851000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809976328052723,
+      "shear_force_N": 6.47085399124302e-18,
+      "slip_speed_mms": 1.592674300014496e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 6.2222035150648834e-12
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09492354318625393,
+        "rise_ms": 4.583333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999737661936178
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002523815007621371,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049881640263616,
+        "rate_ms": 50.47961610049525
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 861000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809983549978568,
+      "shear_force_N": 5.360630966617864e-18,
+      "slip_speed_mms": 1.59245351164238e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 3.0043393304531754e-12
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0940936591696483,
+        "rise_ms": 1.8333333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999779993243983
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002535630706482349,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904991774989284,
+        "rate_ms": 50.47959769765088
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 871000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809988568365947,
+      "shear_force_N": 3.7905385079340884e-18,
+      "slip_speed_mms": 1.5921180677634275e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.4507392606645e-12
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08988777923777316,
+        "rise_ms": 5.895833333333334,
+        "fall_ms": 20.0,
+        "hf_weight": 0.999949995916831
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.002318879296354879,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904994284182974,
+        "rate_ms": 50.47958490985068
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 881000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809992055677027,
+      "shear_force_N": 2.680315483308932e-18,
+      "slip_speed_mms": 1.5915922559325452e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 7.005762397049406e-13
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08871116438481962,
+        "rise_ms": 7.666666666666666,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999445498683427
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001482635899308222,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904996027838514,
+        "rate_ms": 50.47957602352628
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 891000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809994479094595,
+      "shear_force_N": 6.93072342530164e-18,
+      "slip_speed_mms": 1.5916581606945318e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 3.38329520079237e-13
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08416385555233342,
+        "rise_ms": 2.3333333333333335,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999630854374365
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0019332077409319566,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904997239547297,
+        "rate_ms": 50.47956984820444
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 901000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809996163217412,
+      "shear_force_N": 3.7905385079340884e-18,
+      "slip_speed_mms": 1.5917115272170798e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.633945842941022e-13
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09326486221272619,
+        "rise_ms": 1.2291666666666665,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999812208578944
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.001972085310089,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904998081608706,
+        "rate_ms": 50.47956555674499
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 911000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809997333592264,
+      "shear_force_N": 6.010984557184402e-18,
+      "slip_speed_mms": 1.5916274939409644e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 7.891233967536649e-14
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0942133866748616,
+        "rise_ms": 9.979166666666668,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999237548255991
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0014355084069615184,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904998666796132,
+        "rate_ms": 50.479562574411716
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 921000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809998146947537,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.5915885802019314e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 3.8111758087068194e-14
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0926916462578125,
+        "rise_ms": 8.354166666666666,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999381758850012
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0014237311524240336,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904999073473769,
+        "rate_ms": 50.479560501831095
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 931000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809998712194877,
+      "shear_force_N": 3.7905385079340884e-18,
+      "slip_speed_mms": 1.5916992654597046e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.8406786762627827e-14
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0928923012958009,
+        "rise_ms": 1.5208333333333333,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999810424634561
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0008254778260697385,
+        "band_Hz": [
+          100.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049993560974385,
+        "rate_ms": 50.479559061475754
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 941000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999105019663,
+      "shear_force_N": 5.360630966617864e-18,
+      "slip_speed_mms": 1.5908507067412145e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 8.88997317611381e-15
+    },
+    "Y": {
+      "impact": {
+        "A": 0.08972440268441369,
+        "rise_ms": 1.8125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999466281582319
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0019333261435643962,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904999552509832,
+        "rate_ms": 50.4795580604852
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 951000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999378018472,
+      "shear_force_N": 8.500815883985415e-18,
+      "slip_speed_mms": 1.5902212029475158e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.293637809273067e-15
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09316830018088156,
+        "rise_ms": 5.229166666666667,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999641386893224
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0009259423658402819,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904999689009236,
+        "rate_ms": 50.47955736483353
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 961000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999567743077,
+      "shear_force_N": 6.4708539912430216e-18,
+      "slip_speed_mms": 1.5902312189833932e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.0737296481372887e-15
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09300978493979767,
+        "rise_ms": 3.5833333333333335,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999418405117179
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0021767176494601067,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.04904999783871539,
+        "rate_ms": 50.479556881380006
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 971000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999699595264,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.5899500627680097e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 1.0015670781519124e-15
+    },
+    "Y": {
+      "impact": {
+        "A": 0.10249317716417806,
+        "rise_ms": 2.7291666666666665,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999753799732783
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0022436981012177795,
+        "band_Hz": [
+          200.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049998497976324,
+        "rate_ms": 50.47955654539616
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 981000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999791228201,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.5900792711807506e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 4.837370338863766e-16
+    },
+    "Y": {
+      "impact": {
+        "A": 0.09917521094761797,
+        "rise_ms": 4.0,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999881461852392
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0010670581330865633,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049998956141004,
+        "rate_ms": 50.47955631189842
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  },
+  {
+    "X": {
+      "timestamp_us": 991000,
+      "phase": "PHASE_HOLD",
+      "phase_confidence_01": 0.85,
+      "normal_force_N": 0.9809999854910151,
+      "shear_force_N": 5.820500400676483e-18,
+      "slip_speed_mms": 1.5895876628679482e-11,
+      "material_features": {
+        "hardness_01": 0.6666666666666667,
+        "mu_01": 0.8,
+        "roughness_rms_um": 8.0
+      },
+      "uncertainty_pct": 2.3363560392118276e-16
+    },
+    "Y": {
+      "impact": {
+        "A": 0.0968291975953306,
+        "rise_ms": 1.8125,
+        "fall_ms": 20.0,
+        "hf_weight": 0.9999863592302061
+      },
+      "ring": {
+        "f_Hz": [],
+        "tau_ms": [],
+        "a": []
+      },
+      "shear": {
+        "A": 0.0010587242181715002,
+        "band_Hz": [
+          300.0
+        ],
+        "dir2": [
+          0.0,
+          1.0
+        ]
+      },
+      "weight": {
+        "A": 0.049049999274550754,
+        "rate_ms": 50.479556149625
+      },
+      "texture": {
+        "color": "COLOR_WHITE",
+        "A": 1.0
+      }
+    }
+  }
+]

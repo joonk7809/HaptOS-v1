@@ -1,0 +1,38 @@
+<mujoco model="contact_test">
+  <option timestep="0.001" gravity="0 0 -9.81"/>
+  
+  <visual>
+    <headlight ambient="0.5 0.5 0.5"/>
+  </visual>
+  
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1="0.2 0.3 0.4" rgb2="0.3 0.4 0.5"/>
+    <material name="grid" texture="grid" texrepeat="1 1" reflectance="0.2"/>
+    <material name="finger" rgba="0.8 0.3 0.3 1.0"/>
+  </asset>
+  
+  <worldbody>
+    <!-- Ground plane -->
+    <geom name="floor" type="plane" size="2 2 0.1" material="grid" 
+          condim="6" friction="0.6 0.005 0.0001" solref="0.02 1.0"/>
+    
+    <!-- Falling sphere (fingertip proxy) -->
+    <body name="fingertip" pos="0 0 1.0">
+      <freejoint/>
+      <!-- Main collision geom with touch sensor -->
+      <geom name="finger" type="sphere" size="0.05" mass="0.1" material="finger"
+            condim="6" friction="0.8 0.005 0.0001" solref="0.02 1.0"/>
+      <!-- Site for force measurement -->
+      <site name="contact_site" pos="0 0 0" size="0.001"/>
+    </body>
+  </worldbody>
+  
+  <sensor>
+    <!-- Touch sensor on the geom itself -->
+    <touch name="finger_touch" site="contact_site"/>
+    <!-- Force/torque sensor -->
+    <framepos name="finger_pos" objtype="site" objname="contact_site"/>
+    <framequat name="finger_quat" objtype="site" objname="contact_site"/>
+    <framelinvel name="finger_vel" objtype="site" objname="contact_site"/>
+  </sensor>
+</mujoco>
