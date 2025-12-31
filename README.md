@@ -150,7 +150,7 @@ Features ──> [NN_v0 + NN_v1] ──> Final Cues (89.1% better!)
 
 ---
 
-## 🧠 Neural Network Architecture
+## Neural Network Architecture
 
 ![Network Architecture](docs/diagrams/network_architecture.png)
 
@@ -543,7 +543,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **MuJoCo**: Physics simulation engine
 - **PyTorch**: Deep learning framework
@@ -576,9 +576,9 @@ If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Built with ❤️ for realistic haptic experiences**
+**Built with a mission for realistic haptic experiences**
 
-*Last updated: November 2025*
+*Last updated: December 2025*
 ```
 
 ---
