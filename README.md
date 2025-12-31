@@ -25,7 +25,7 @@ This project solves these challenges with a novel two-phase learning architectur
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ python tests/test_combined_system.py
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Two-Phase Learning Pipeline
 
