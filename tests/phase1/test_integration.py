@@ -254,7 +254,7 @@ class TestRouterStatistics(unittest.TestCase):
         # Reset stats
         router.reset_stats()
         initial_stats = router.get_stats()
-        self.assertEqual(initial_stats['total_contacts_routed'], 0)
+        self.assertEqual(initial_stats['total_contacts'], 0)
 
         # Run simulation
         total_filtered = 0
@@ -265,7 +265,7 @@ class TestRouterStatistics(unittest.TestCase):
 
         # Check stats
         final_stats = router.get_stats()
-        self.assertEqual(final_stats['total_contacts_routed'], total_filtered)
+        self.assertEqual(final_stats['filtered_contacts'], total_filtered)
 
 
 if __name__ == '__main__':

@@ -352,17 +352,17 @@ class TestSomatotopicRouter(unittest.TestCase):
         self.router.route(patches)
 
         stats = self.router.get_stats()
-        self.assertEqual(stats['total_contacts_routed'], 10)
+        self.assertEqual(stats['total_contacts'], 10)
 
         # Route more
         self.router.route(patches)
         stats = self.router.get_stats()
-        self.assertEqual(stats['total_contacts_routed'], 20)
+        self.assertEqual(stats['total_contacts'], 20)
 
         # Reset
         self.router.reset_stats()
         stats = self.router.get_stats()
-        self.assertEqual(stats['total_contacts_routed'], 0)
+        self.assertEqual(stats['total_contacts'], 0)
 
 
 if __name__ == '__main__':

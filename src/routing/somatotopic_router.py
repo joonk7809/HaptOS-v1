@@ -278,17 +278,27 @@ class SomatotopicRouter:
     1. Sensitivity gating (force threshold based on body part)
     2. Rendering tier assignment (VCA/LRA/ERM capability)
     3. Cue mask application (enable/disable cue types)
+    4. Contact prioritization (for overload scenarios)
+    5. Per-body-part statistics tracking
     """
 
-    def __init__(self, homunculus: Optional[Homunculus] = None):
+    def __init__(self, homunculus: Optional[Homunculus] = None, max_contacts: int = 20):
         """
         Initialize router with Homunculus model.
 
         Args:
             homunculus: Optional custom Homunculus. If None, uses default.
+            max_contacts: Maximum simultaneous contacts to process (for overload protection)
         """
         self.homunculus = homunculus or Homunculus()
-        self.contact_count = 0  # Statistics
+        self.max_contacts = max_contacts
+
+        # Statistics
+        self.contact_count = 0
+        self.filtered_count = 0
+        self.rejected_count = 0
+        self.overload_count = 0
+        self.per_body_part_stats: Dict[int, Dict] = {}  # body_part_id → stats
 
     def route(self, patches: List[ContactPatch]) -> List[FilteredContact]:
         """
@@ -297,7 +307,8 @@ class SomatotopicRouter:
         Applies biological filtering based on Homunculus table:
         - Rejects contacts below perceptual threshold
         - Assigns rendering tier and cue mask
-        - Preserves original ContactPatch for feature extraction
+        - Prioritizes contacts if overload (>max_contacts)
+        - Tracks per-body-part statistics
 
         Args:
             patches: List of ContactPatches from physics simulation
@@ -306,6 +317,7 @@ class SomatotopicRouter:
             List[FilteredContact]: Biologically-filtered contacts
         """
         filtered = []
+        self.contact_count += len(patches)
 
         for patch in patches:
             # Lookup perceptual properties
@@ -316,6 +328,8 @@ class SomatotopicRouter:
             force_threshold = 0.01 / props.sensitivity  # Base threshold: 0.01N
 
             if patch.force_normal < force_threshold:
+                self.rejected_count += 1
+                self._update_body_part_stats(patch.body_part_id, 'rejected')
                 continue  # Below perceptual threshold for this body part
 
             # Create filtered contact
@@ -326,22 +340,91 @@ class SomatotopicRouter:
             )
 
             filtered.append(filtered_contact)
-            self.contact_count += 1
+            self.filtered_count += 1
+            self._update_body_part_stats(patch.body_part_id, 'accepted')
+
+        # Contact prioritization (overload protection)
+        if len(filtered) > self.max_contacts:
+            self.overload_count += len(filtered) - self.max_contacts
+            filtered = self._prioritize_contacts(filtered)
+            logger.warning(f"Contact overload: {len(filtered)} contacts, keeping top {self.max_contacts}")
 
         if filtered:
             logger.debug(f"Routed {len(filtered)}/{len(patches)} contacts "
-                        f"(total: {self.contact_count})")
+                        f"(accepted: {self.filtered_count}, rejected: {self.rejected_count})")
 
         return filtered
+
+    def _prioritize_contacts(self, contacts: List[FilteredContact]) -> List[FilteredContact]:
+        """
+        Prioritize contacts when exceeding max_contacts limit.
+
+        Priority order:
+        1. Fingertips (higher sensitivity)
+        2. Higher force magnitude
+        3. Higher rendering tier
+
+        Args:
+            contacts: All filtered contacts
+
+        Returns:
+            Top max_contacts by priority
+        """
+        # Sort by priority score (higher = more important)
+        def priority_score(fc: FilteredContact) -> float:
+            props = self.homunculus.lookup(fc.patch.body_part_id)
+            # Score = sensitivity * force * tier_weight
+            tier_weight = {1: 3.0, 2: 2.0, 3: 1.0}.get(fc.rendering_tier, 1.0)
+            return props.sensitivity * fc.patch.force_normal * tier_weight
+
+        sorted_contacts = sorted(contacts, key=priority_score, reverse=True)
+        return sorted_contacts[:self.max_contacts]
+
+    def _update_body_part_stats(self, body_part_id: int, status: str):
+        """Update statistics for a specific body part."""
+        if body_part_id not in self.per_body_part_stats:
+            self.per_body_part_stats[body_part_id] = {
+                'accepted': 0,
+                'rejected': 0,
+                'total': 0
+            }
+
+        self.per_body_part_stats[body_part_id][status] += 1
+        self.per_body_part_stats[body_part_id]['total'] += 1
 
     def reset_stats(self):
         """Reset statistics counters."""
         self.contact_count = 0
+        self.filtered_count = 0
+        self.rejected_count = 0
+        self.overload_count = 0
+        self.per_body_part_stats.clear()
 
     def get_stats(self) -> Dict:
-        """Get routing statistics."""
+        """
+        Get routing statistics.
+
+        Returns:
+            Dict with:
+            - total_contacts: Total contacts received
+            - filtered_contacts: Contacts that passed threshold
+            - rejected_contacts: Contacts rejected (below threshold)
+            - overload_contacts: Contacts dropped due to overload
+            - acceptance_rate: filtered / total
+            - per_body_part_stats: Statistics per body part
+        """
+        acceptance_rate = (
+            self.filtered_count / self.contact_count
+            if self.contact_count > 0 else 0.0
+        )
+
         return {
-            'total_contacts_routed': self.contact_count
+            'total_contacts': self.contact_count,
+            'filtered_contacts': self.filtered_count,
+            'rejected_contacts': self.rejected_count,
+            'overload_contacts': self.overload_count,
+            'acceptance_rate': acceptance_rate,
+            'per_body_part_stats': dict(self.per_body_part_stats)
         }
 
 
