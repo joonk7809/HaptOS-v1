@@ -1,6 +1,6 @@
 # HAPTOS Examples
 
-This directory contains example applications demonstrating the HAPTOS SDK.
+This directory contains 6 example applications demonstrating the HAPTOS SDK, from simple one-liners to a full-featured interactive GUI simulator.
 
 ## Getting Started
 
@@ -119,6 +119,69 @@ python examples/hardware_integration.py --real
 
 ---
 
+### 6. Interactive Simulator ✨
+
+Full-featured PyQt5 GUI for interactive testing and debugging.
+
+```bash
+# Default model (simple hand)
+python examples/interactive_simulator.py
+
+# Custom model
+python examples/interactive_simulator.py path/to/model.xml
+```
+
+**What it demonstrates:**
+- Real-time physics and haptics visualization
+- Contact force vectors and body part IDs
+- Live plotting of all 5 haptic cue types
+- Interactive simulation control (play/pause/step/reset)
+- Performance monitoring (latency, bandwidth, contacts)
+- 6-channel hand simulation with visual feedback
+
+**Key Features:**
+- **MuJoCo Viewer**: Real-time physics rendering
+- **Contact Visualization**: Force vectors overlaid on model
+- **Cue Display**: Real-time CueParams table (all 5 cue types)
+- **Live Plotting**: Matplotlib graphs with 100-frame history
+- **Control Panel**: Play/Pause/Step/Reset, speed control (0.1x-5.0x)
+- **Statistics Dashboard**: Latency, contacts, bandwidth tracking
+- **Visualization Toggles**: Show/hide contacts, IDs, cues
+
+**GUI Layout:**
+```
+┌─────────────────────────────────────────────────────┐
+│ Control Panel: [Play] [Pause] [Step] [Reset]       │
+└─────────────────────────────────────────────────────┘
+┌──────────────────────┬──────────────────────────────┐
+│ MuJoCo Viewer        │ Cue Parameters + Statistics  │
+│ (with force overlays)│                              │
+└──────────────────────┴──────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ Live Cue Plots (5 matplotlib subplots)              │
+└─────────────────────────────────────────────────────┘
+```
+
+**Use Cases:**
+- Physics debugging (visualize contact forces)
+- Haptic cue validation (inspect renderer output)
+- Performance profiling (track latency/bandwidth)
+- Demo and presentation (visual showcase)
+- Development workflow (test new models/algorithms)
+
+**Requirements:**
+```bash
+pip install PyQt5 matplotlib
+```
+
+**Performance:**
+- 60 FPS GUI rendering
+- 1kHz physics simulation
+- 100Hz haptic rendering
+- Handles 6+ simultaneous contacts
+
+---
+
 ## Example Structure
 
 All examples follow this pattern:
@@ -152,23 +215,16 @@ driver.disconnect_all()
 
 ---
 
-## Advanced Examples (Coming Soon)
+## Example Comparison
 
-### Phase 3+:
-- **Model Zoo**: Loading different trained models
-- **Custom Environments**: Using environment library
-- **Performance Tuning**: Optimizing for real-time
-- **Error Handling**: Robust production patterns
-
-### Phase 4+:
-- **Real Hardware**: Complete Teensy integration
-- **Multi-Device**: Distributed actuators
-- **Closed-Loop**: Load cell feedback
-
-### Phase 5+:
-- **Full Body**: Humanoid model integration
-- **Complex Scenes**: Forest environment
-- **Sparse Inference**: Interpolated sensors
+| Example | Lines | Complexity | GUI | Multi-Contact | Hardware |
+|---------|-------|------------|-----|---------------|----------|
+| hello_haptos.py | 1 | ⭐ | - | - | - |
+| basic_simulation.py | 30 | ⭐⭐ | - | - | - |
+| grasp_demo.py | 60 | ⭐⭐⭐ | - | ✓ | - |
+| custom_homunculus.py | 80 | ⭐⭐⭐ | - | - | - |
+| hardware_integration.py | 100 | ⭐⭐⭐⭐ | - | - | ✓ |
+| interactive_simulator.py | 560 | ⭐⭐⭐⭐⭐ | ✓ | ✓ | - |
 
 ---
 
