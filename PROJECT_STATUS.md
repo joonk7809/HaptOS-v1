@@ -1,7 +1,7 @@
 # HAPTOS Platform - Project Status
 
-**Date**: February 1, 2026
-**Current Phase**: Phase 3 Complete ✅
+**Date**: February 2, 2026
+**Current Phase**: Phase 3 Complete ✅ + Interactive Simulator
 **Tests Passing**: 145/145 ✅
 **Architecture**: Three-Layer Simulation-First Haptics Platform
 
@@ -14,7 +14,7 @@ The HAPTOS Platform is a **simulation-first haptics system** that abstracts hapt
 **Core Innovation**: Physics → Neural Rendering → Hardware abstraction
 **Target Users**: Hardware developers, game studios, researchers, AR/VR apps
 
-**Current State**: Complete SDK with public API, 5 examples, full documentation, and pip packaging. Ready for PyPI publication and hardware integration (Phase 4).
+**Current State**: Complete SDK with public API, 6 examples (including interactive GUI simulator), full documentation, and pip packaging. Ready for PyPI publication and hardware integration (Phase 4).
 
 ---
 
@@ -170,6 +170,7 @@ driver = haptos.Driver()
 - **grasp_demo.py**: Multi-contact 6-channel
 - **custom_homunculus.py**: Custom perceptual model
 - **hardware_integration.py**: Mock vs real hardware
+- **interactive_simulator.py**: Full-featured GUI greybox simulator ✨
 
 #### 3. Pip Packaging
 - **setup.py**: setuptools configuration
@@ -201,6 +202,50 @@ pip install -e .    # Current: from source
 **Key Files**:
 - `PHASE3_COMPLETE.md` - Full documentation
 - `README_SDK.md` - PyPI-ready README
+
+---
+
+### ✅ Developer Tools: Interactive Simulator
+
+**Goal**: Provide a visual greybox simulator for interactive testing and debugging
+
+**Delivered**: `examples/interactive_simulator.py` (~560 lines)
+
+**Features**:
+- **PyQt5-based GUI** with real-time visualization
+- **MuJoCo integration** for physics model loading
+- **Contact visualization**: Force vectors, body part IDs, contact areas
+- **Haptic cue display**: Real-time parameters for all 5 cue types
+- **Live plotting**: Matplotlib graphs tracking cue history over time
+- **Control panel**: Play/Pause/Step/Reset, simulation speed control
+- **Visualization toggles**: Show/hide contacts, IDs, rendered cues
+- **Statistics dashboard**: Latency monitoring, contact count, bandwidth tracking
+- **6-channel simulation**: All 5 fingers + palm rendered simultaneously
+
+**Use Cases**:
+- Interactive physics debugging (visualize contact forces)
+- Haptic cue validation (inspect renderer output in real-time)
+- Performance profiling (track latency and bandwidth)
+- Demo and presentation tool (visual showcase of HAPTOS)
+
+**Developer Experience**:
+```bash
+python examples/interactive_simulator.py assets/hand_models/simple_hand.xml
+```
+
+**Architecture**:
+- `CuePlotCanvas`: Real-time matplotlib plotting (5 cue types)
+- `ContactVisualizer`: 2D force vector overlay on MuJoCo viewer
+- `CueParameterDisplay`: Tabular display of current CueParams
+- `StatisticsPanel`: Performance metrics (latency, contacts, bandwidth)
+- `ControlPanel`: Simulation controls and visualization options
+- `InteractiveSimulator`: Main window orchestrating all components
+
+**Performance**:
+- 60 FPS GUI update rate
+- 100Hz haptic rendering (every 10 physics steps)
+- Real-time plotting with 100-frame history window
+- Sub-frame latency tracking
 
 ---
 
@@ -242,15 +287,16 @@ pip install -e .    # Current: from source
 | **Driver Manager** | ✅ Complete | driver_manager.py | 8 tests | Multi-channel support |
 | **Firmware** | ✅ Complete | HaptosReceiver.ino, README.md | N/A | Ready for Teensy 4.1 |
 | **Public API** | ✅ Complete | haptos/*.py | N/A | Simulation, Renderer, Driver, Homunculus |
-| **Examples** | ✅ Complete | examples/*.py | N/A | 5 working demos |
+| **Examples** | ✅ Complete | examples/*.py | N/A | 6 working demos |
+| **Interactive Simulator** | ✅ Complete | interactive_simulator.py | N/A | PyQt5 GUI greybox tool |
 | **Packaging** | ✅ Complete | setup.py, pyproject.toml | N/A | pip installable |
 | **Documentation** | ✅ Complete | docs/*.md | N/A | Quickstart + API reference |
 | **Phase 1 Tests** | ✅ Passing | 137 tests | 100% | 4 canonical scenarios |
 | **Phase 2 Tests** | ✅ Passing | 8 tests | 100% | Multi-contact hand |
 
 **Total Tests**: 145 passing ✅
-**Total Commits**: 14 commits ahead of origin/main
-**SDK Lines**: ~7,000 lines (API + examples + docs)
+**Total Commits**: 16 commits ahead of origin/main
+**SDK Lines**: ~7,600 lines (API + examples + docs + simulator)
 
 ---
 
@@ -405,7 +451,8 @@ for body_part_id in [10, 11, 12, 13, 14, 15]:
 
 - **[Quick Start](docs/quickstart.md)** - Get started in 5 minutes
 - **[API Reference](docs/api_reference.md)** - Complete API documentation
-- **[Examples](examples/)** - 5 working demos
+- **[Examples](examples/)** - 6 working demos
+- **[Interactive Simulator](examples/interactive_simulator.py)** - PyQt5 GUI greybox tool
 - **[Environment Library](environments/README.md)** - Standard scenes
 - **[Model Zoo](models/zoo/README.md)** - Pre-trained models
 - **[Firmware Guide](firmware/README.md)** - Hardware integration
@@ -479,12 +526,13 @@ haptOS/
 │   │   └── protocol_validator.py
 │   └── physics/
 │       └── multi_contact_engine.py
-├── examples/                # 5 demos ✨
+├── examples/                # 6 demos ✨
 │   ├── hello_haptos.py
 │   ├── basic_simulation.py
 │   ├── grasp_demo.py
 │   ├── custom_homunculus.py
 │   ├── hardware_integration.py
+│   ├── interactive_simulator.py  # ✨ NEW
 │   └── README.md
 ├── docs/                    # Documentation ✨
 │   ├── quickstart.md
@@ -518,6 +566,7 @@ haptOS/
 ## Commit History
 
 ```
+cd165ab - Add interactive greybox simulator for HAPTOS testing
 d2fae77 - Add Phase 3 Completion Summary
 f440623 - Phase 3 Documentation: Environment Library + Model Zoo + Guides
 843d796 - Phase 3 SDK Release: Public Python API + Examples + Packaging
@@ -529,7 +578,7 @@ b881604 - Complete Phase 2: Multi-Contact Hand Coverage (6 Channels)
 ```
 
 **Current branch**: main
-**Commits ahead of origin**: 14
+**Commits ahead of origin**: 16
 
 ---
 
