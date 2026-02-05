@@ -27,8 +27,11 @@ data/processed/*.h5
 data/phase1_processed/*.h5
 data/phase2_processed/*.h5
 models/checkpoints/*.pt
-logs/*.png
-logs/*.wav
+models/checkpoints/*.png
+
+# Logs (all generated files)
+logs/
+*.log
 
 # Firmware build artifacts
 firmware/*.elf
@@ -39,6 +42,11 @@ firmware/.pio/
 tests/*.png
 tests/*.wav
 tests/verify_cpp
+
+# Demo/example outputs
+*_demo.png
+*_demo.jpg
+*_output.png
 
 # Jupyter
 .ipynb_checkpoints/
