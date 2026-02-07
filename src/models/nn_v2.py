@@ -176,6 +176,99 @@ class NeuralRenderer_v2(nn.Module):
 
         return output
 
+    def forward_batch(self, features: torch.Tensor, cue_masks: list) -> list:
+        """
+        Batched forward pass with per-contact cue masks.
+
+        Processes multiple contacts in a single forward pass, with each
+        contact potentially having a different cue_mask.
+
+        Args:
+            features: (N, 14) tensor of physics features
+            cue_masks: List of N cue masks (one per contact)
+
+        Returns:
+            List of N dicts, each with 14 sensation parameters (floats in [0,1])
+
+        Performance:
+            - Single forward pass through trunk (shared computation)
+            - Per-contact cue mask gating
+            - Faster than N individual forward() calls
+        """
+        from src.core.schemas import SensationParams
+
+        batch_size = features.shape[0]
+
+        if len(cue_masks) != batch_size:
+            raise ValueError(f"cue_masks length ({len(cue_masks)}) must match "
+                           f"batch size ({batch_size})")
+
+        # Shared trunk computation
+        trunk_out = self.trunk(features)  # [N, 64]
+
+        # Compute all heads (we'll mask per-contact later)
+        impact_out = torch.sigmoid(self.impact_head(trunk_out))      # [N, 2]
+        resonance_out = torch.sigmoid(self.resonance_head(trunk_out)) # [N, 3]
+        texture_out = torch.sigmoid(self.texture_head(trunk_out))     # [N, 3]
+        slip_out = self.slip_head(trunk_out)                          # [N, 4]
+        pressure_out = torch.sigmoid(self.pressure_head(trunk_out))   # [N, 2]
+
+        # Build SensationParams for each contact
+        results = []
+
+        for i in range(batch_size):
+            mask = cue_masks[i]
+
+            # Initialize sensation
+            s = SensationParams(
+                # Impact
+                impact_intensity=impact_out[i, 0].item() if (mask & self.CUE_IMPACT) else 0.0,
+                impact_sharpness=impact_out[i, 1].item() if (mask & self.CUE_IMPACT) else 0.0,
+                impact_trigger=False,  # Set by onset detector
+
+                # Resonance
+                resonance_intensity=resonance_out[i, 0].item() if (mask & self.CUE_RESONANCE) else 0.0,
+                resonance_brightness=resonance_out[i, 1].item() if (mask & self.CUE_RESONANCE) else 0.0,
+                resonance_sustain=resonance_out[i, 2].item() if (mask & self.CUE_RESONANCE) else 0.0,
+
+                # Texture
+                texture_roughness=texture_out[i, 0].item() if (mask & self.CUE_TEXTURE) else 0.0,
+                texture_density=texture_out[i, 1].item() if (mask & self.CUE_TEXTURE) else 0.0,
+                texture_depth=texture_out[i, 2].item() if (mask & self.CUE_TEXTURE) else 0.0,
+
+                # Slip
+                slip_speed=0.0,
+                slip_direction=(0.0, 0.0),
+                slip_grip=0.5,
+
+                # Pressure
+                pressure_magnitude=pressure_out[i, 0].item() if (mask & self.CUE_PRESSURE) else 0.0,
+                pressure_spread=pressure_out[i, 1].item() if (mask & self.CUE_PRESSURE) else 0.0,
+
+                # Metadata (will be set by caller)
+                body_part_id=0,
+                timestamp_us=0
+            )
+
+            # Slip channel (special handling for direction normalization)
+            if mask & self.CUE_SLIP:
+                s.slip_speed = torch.sigmoid(slip_out[i, 0]).item()
+                s.slip_grip = torch.sigmoid(slip_out[i, 3]).item()
+
+                # Direction: tanh + normalize to unit vector
+                dir_x = torch.tanh(slip_out[i, 1])
+                dir_y = torch.tanh(slip_out[i, 2])
+                norm = torch.sqrt(dir_x**2 + dir_y**2 + 1e-8)
+
+                s.slip_direction = (
+                    (dir_x / norm).item(),
+                    (dir_y / norm).item()
+                )
+
+            results.append(s)
+
+        return results
+
     def count_parameters(self) -> int:
         """
         Count trainable parameters.
